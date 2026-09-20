@@ -1,7 +1,8 @@
 # consumo_agua 🚰
+# Inserindo variáveis
 imovel = input("Digite o tipo de imóvel (comercial, casa ou apartamento): ").lower()
 consumo = float(input("Digite o consumo mensal de água em m3: "))
-
+# Determinando valores para as variáveis e discriminando
 if imovel == "comercial"🏪:
     print("Tarifa comercial aplicada – consulte o plano corporativo.")
 elif imovel == "apartamento"🏙️ and consumo < 10:
